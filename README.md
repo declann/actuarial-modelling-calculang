@@ -35,6 +35,6 @@ It includes spreadsheet inputs from lifelib.
 
 [Lifelib](https://github.com/lifelib-dev/lifelib) is Copyright (c) 2022 lifelib Developers under [MIT License](https://github.com/lifelib-dev/lifelib/blob/main/LICENSE.txt)
 
-For reading spreadsheets this includes [convenient code](https://github.com/observablehq/framework/blob/main/src/client/stdlib/xlsx.js) from [Observable Framework](https://observablehq.com/framework/) - available under [ISC License](https://github.com/observablehq/framework/blob/main/LICENSE).
+For reading spreadsheets this repository includes [convenient code](https://github.com/observablehq/framework/blob/main/src/client/stdlib/xlsx.js) from [Observable Framework](https://observablehq.com/framework/) - available under [ISC License](https://github.com/observablehq/framework/blob/main/LICENSE).
 
 My own code, changes, and contributions to this repository are licensed under the [AGPLv3](./LICENSE).
