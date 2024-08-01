@@ -15,6 +15,12 @@ The assumptions, methodology and limitations of a model and model outputs should
 
 I haven’t completely listed these - or otherwise properly documented models and outputs.
 
+## experimental
+
+calculang is alpha software. This repository uses a further experimental release of calculang.
+
+Code in this repository itself is alpha code that should not be relied upon and that includes no warranty - for more details see the [LICENSE](./LICENSE) file.
+
 ## Licenses
 
 This repo includes calculang code ported from lifelibs BasicTerm_SE model.
