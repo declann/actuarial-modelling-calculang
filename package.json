@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "private": true,
+  "author": {
+    "name": "Declan Naughton",
+    "email": "declann1990@gmail.com"
+  },
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "make-experience": "cd src && time node --max-old-space-size=8000 --experimental-network-imports ./experience.parquet.js 1 > experience.parquet"
+  },
+  "dependencies": {
+    "apache-arrow": "^16.1.0",
+    "parquet-wasm": "^0.6.1",
+    "exceljs": "^4.4.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+  }
+}
