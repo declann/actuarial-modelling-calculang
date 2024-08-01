@@ -2,10 +2,12 @@
 
 ```sh
 npm i # install dependencies
-npm run make-experience
+npm run make-experience # On 10k simulations requires at least 8 gigs of memory and a few minutes - but configured for 1k simulations only
 ```
 
 This should output an `experience.parquet` file, which can be read in numerous ways including using [Huey](https://github.com/rpbouman/huey).
+
+This file includes modelled cashflows and survival values for **every simulated policy and every time period**. The identifier for policy is `random_seed_in`.
 
 The script requires `--experimental-network-imports` flag for nodejs, which is now deprecated - so must also experiment with alternative runtime options.
 
