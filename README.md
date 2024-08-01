@@ -9,6 +9,12 @@ This should output an `experience.parquet` file, which can be read in numerous w
 
 The script requires `--experimental-network-imports` flag for nodejs, which is now deprecated - so must also experiment with alternative runtime options.
 
+## ⚠️ models, model outputs disclaimer - important ❗
+
+The assumptions, methodology and limitations of a model and model outputs should be carefully considered for any purpose you apply them to.
+
+I haven’t completely listed these - or otherwise properly documented models and outputs.
+
 ## Licenses
 
 This repo includes calculang code ported from lifelibs BasicTerm_SE model.
