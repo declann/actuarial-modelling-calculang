@@ -11,6 +11,10 @@ This file includes modelled cashflows and survival values for **every simulated 
 
 The script requires `--experimental-network-imports` flag for nodejs, which is now deprecated - so must also experiment with alternative runtime options.
 
+## this repo/release
+
+is not organised or complete.
+
 ## ⚠️ models, model outputs disclaimer - important ❗
 
 The assumptions, methodology and limitations of a model and model outputs should be carefully considered for any purpose you apply them to.
