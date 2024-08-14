@@ -7,7 +7,8 @@
   },
   "license": "AGPL-3.0-only",
   "scripts": {
-    "make-experience": "cd src && time node --max-old-space-size=8000 --experimental-network-imports ./experience.parquet.js 1 > experience.parquet"
+    "make-experience": "cd src && time node --max-old-space-size=8000 --experimental-network-imports ./experience.parquet.js > experience.parquet",
+    "make-experience-js": "cd src && time node --max-old-space-size=8000 --experimental-network-imports ./experience.parquet.js js > experience.js"
   },
   "dependencies": {
     "apache-arrow": "^16.1.0",

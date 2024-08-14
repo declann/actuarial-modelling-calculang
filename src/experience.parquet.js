@@ -37,6 +37,11 @@ const compiled = await compile_new('entrypoint.cul.js', fs, introspection)
 
 const bundle = bundleIntoOne(compiled, introspection, true)
 
+if (process.argv[2] == 'js') {
+  console.log(bundle)
+  process.exit()
+}
+
 const u = URL.createObjectURL(new Blob([bundle], { type: "text/javascript" }))
 //console.log(`creating ${u}`)
 
